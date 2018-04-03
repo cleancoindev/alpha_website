@@ -1,0 +1,177 @@
+h1,h2,h3,h4,h5,h6,p,ul,li{
+  font-family: 'Overpass', sans-serif;
+}
+
+h1{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0rem;
+  margin: 2rem 0px 2rem 0px;
+  padding: 0.5rem;
+}
+
+h2 span{
+  /* border-bottom: 6px solid #33e5c7; */
+}
+
+h3{
+  font-weight: 400;
+  font-size: 2rem;
+  max-width: 50%;
+  margin: 0 auto;
+  line-height: 2.8rem;
+}
+
+h4{
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin: 0.5rem 0px 0px 0px;
+}
+
+h5{
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0rem 0px 1rem 0px;
+}
+
+h6{
+  font-weight: 200;
+  font-size: 0.8rem;
+  display: inline;
+  margin: 0px 1rem 0px 2rem;
+}
+
+p{
+  font-weight: 200;
+}
+
+.Logo{
+  display: inline-block;
+}
+
+.Intro{
+  background: #ededed;
+}
+
+.Demo{
+  text-align: center;
+}
+
+
+.Demo img{
+  max-width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Header{
+  padding: 2.5rem;
+}
+
+.Menu{
+  display: inline-block;
+  float: right;
+}
+
+.Menu ul li{
+  display: inline;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0px 1rem;
+  color: #3c3c3b;
+}
+
+.Menu ul li:hover{
+  color:black;
+  border-bottom: 2px solid #33e5c7;
+}
+
+.About{
+ text-align: center;
+ padding: 7rem 0px;
+}
+
+.Diagram{
+  margin: 5rem 0px 0px 0px;
+}
+
+.VerticalLine{
+  height: 10rem;
+  width: 2px;
+  background: #33e5c7c2;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.096), 0 2px 2px 0 rgba(0, 0, 0, 0.137);
+  margin: 1.5rem auto;
+}
+
+.AppLogo{
+  height: 3rem;
+  margin: 1.4rem 1rem;
+}
+
+.Specs{
+  background: #ededed;
+  padding: 10vw;
+  text-align: center;
+}
+
+.Specs img{
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SpecsDescription{
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin: 1vw 3vw;
+  padding: 0rem 0.2rem;
+  width: 50%;
+}
+
+.SpecsDescription p{
+  display: inline-block;
+  margin: 0px 0px 2rem 0px;
+}
+
+.Download{
+  background: #cccccc;
+  padding: 10vw;
+}
+
+.Footer{
+  padding: 1vw 7vw;
+}
+
+.Footer img{
+  width: 19px;
+  float: right;
+}
+
+button{
+  margin: 1rem 0.5rem 0px 0px;
+  background: #ededed;
+  padding: 0.5rem 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .Menu {
+      display: none
+  }
+  h2{
+    font-size: 1.7rem;
+    padding: 1rem;
+  }
+  .Specs img{
+    display: none;
+  }
+  .SpecsDescription{
+    width: 100%;
+  }
+}
