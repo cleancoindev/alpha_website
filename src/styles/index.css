@@ -52,6 +52,15 @@ p{
   font-weight: 200;
 }
 
+code{
+  background: black;
+  padding: 4px;
+  color: rgb(219, 217, 217);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .Logo{
   display: inline-block;
   margin: 0px 0px 0px 4vw;
@@ -169,6 +178,10 @@ button{
   padding: 0.5rem 0.5rem;
 }
 
+iframe{
+  margin: 0rem 0px 7rem 0px;
+}
+
 @media only screen and (max-width: 600px) {
   .Menu {
       display: none
@@ -183,4 +196,110 @@ button{
   .SpecsDescription{
     width: 100%;
   }
+}
+
+.Instructions_Content{
+  margin: 4vw 8vw;
+}
+
+.Instructions_Content h1 {
+  letter-spacing: 0.1rem;
+  font-size: 2.5rem;
+  margin: 2rem 0px;
+}
+
+.Instructions_Content h2 {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  margin: 4rem 0px 2rem 0px;
+  padding: 0px;
+}
+
+.Instructions_Content h3{
+  font-size: 0.9rem;
+  margin: 1rem 2rem;
+}
+
+.Instructions_Content h4{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.Instructions_Content h5{
+  font-size: 0.9rem;
+  margin: 10px 0px 4rem 0px;
+  max-width: 40%;
+  line-height: 1rem;
+  font-style: italic;
+}
+
+.Instructions_Content{
+  width: 70%;
+  margin-bottom: 10rem;
+}
+
+.Instructions_Content p{
+  margin: 0rem 2rem;
+  line-height: 1.4rem;
+}
+
+.Instructions_Content a {
+  border-bottom: 1px solid #33e5c7; 
+}
+
+.Instructions_Content img{
+  margin: 1rem 2rem;
+}
+
+.Instructions_Content ul{
+  list-style-type: disc;
+  margin: 1.4rem 6rem;
+}
+
+.Instructions_Content ul li{
+  font-weight: lighter;
+  line-height: 1.4rem;
+}
+
+.Instructions_Content ul li img {
+  display: block;
+}
+
+.Instructions_Content ul li b{
+  font-weight: bolder;
+}
+
+hr{
+  background: rgb(233, 233, 233);
+  border: none;
+  height: 1px;
+}
+
+.Screenshot{
+  text-align: center;
+  margin: 2rem 0px 2rem 0px;
+}
+
+.Screenshot img{
+  width: 60vw;
+  margin: 0px;
+}
+
+.Screenshot p{
+  font-size: 13px;
+  font-style: italic;
+}
+
+.Subpanel{
+  display: inline;
+  margin: 0px;
+}
+
+.Subpanel img{
+  width: 20vw;
+  margin: 0px;
+}
+
+.Graph{
+  width: 40vw !important;
 }

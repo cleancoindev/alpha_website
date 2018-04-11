@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Overpass:200,300,400,700,800,900" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../../src/img/favicon.png">
+  <link rel="stylesheet" href="../../src/styles/reset.css">
+  <link rel="stylesheet" href="../../src/styles/index.css">
+
+  <meta name="description" content="Runway: Machine Learning for Everybody">
+  <meta name="keywords" content="machine learning, machine, learning, models, GUI">
+  <meta name="author" content="Cristobal Valenzuela">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="twitter:title" content="Machine Learning for Everyone" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@c_valenzuelab" />
+  <meta name="twitter:description" content="Run open-source state of the art machine learning models and use them everywhere" />
+  <meta name="twitter:image" content="../../src/img/meta.png" />
+
+  <meta property="og:title" content="Machine Learning for Everyone" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://runwayml.com/" />
+  <meta property="og:description" content="Run open-source state of the art machine learning models and use them everywhere" />
+  <meta property="og:image" content="../../src/img/meta.png" />
+
+
+  <title>Runway | Machine Learning for Everyone</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776892-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115776892-1');
+
+  </script>
+
+
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="Intro">
+    <div class="Header">
+      <div class="Logo">
+        <a href="/"><img src="../../src/img/logos/logo2.png" alt="runway"></a>
+      </div>
+      <div class="Menu">
+        <ul>
+          <a href="#about">
+            <li>About</li>
+          </a>
+          <a href="/">
+            <li>Install</li>
+          </a>
+          <a href="#about">
+            <li>Examples</li>
+          </a>
+          <a href="#tutorials">
+            <li>Tutorials</li>
+          </a>
+          <a href="https://github.com/runwayml">
+            <li>Github</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Instructions -->
+  <div class="Instructions_Content">
+    <h1>Installing Runway</h1>
+
+    <h4>*A note on the current status of this software</h4>
+    <h5>Runway is still an experimental and in active development software. Please treat it as a work in progress, with bugs and flaws not as a production ready or final project. Be nice. <br />Runway is still in beta and only available through a direct request to hello@runwayml.com</h5>
+  
+    <!-- Prerequisites -->
+    <h2>1. Prerequisites</h2>
+    <p>Runway's only requirement is <a href="https://www.docker.com/">Docker</a>. Docker is a software to create and run container-based apps. You just need to install Docker, no settings or extra configurations are required. Docker Community Edition (CE) is free. </p>
+    <h3>Installing Docker</h3>
+    <p>Go to the <a href="https://www.docker.com/community-edition#/download">Docker CE download page</a> and download the right version for your OS. Docker is available for Mac, Windows and Linux.</p>
+
+    <br>
+    <p>Once the installation process is complete you should see the following based on your OS:</p>
+    <ul>
+      <li>
+        macOS: A whale in the top bar indicates that docker is running
+        <img src="../../src/img/whale-in-menu-bar.png" alt="docker mac">
+      </li>
+      <li>
+        Windows: A whale in the notifications area indicates that docker is running
+        <img src="../../src/img/docker-windows.jpg" alt="docker mac">
+      </li>
+      <li>
+        Linux Distributions: Docker should be available in your terminal. Try running <code>docker --help</code>
+      </li> 
+    </ul>
+    
+    <p>Once Docker is installed you can move on to the next step.</p>
+
+    <!-- Download -->
+    <h2>2. Download Runway</h2>
+    <p>From the link sent to you, download the app and save the file anywhere you want. You should be able to run the app just by clicking the icon. It might be the case that you a security warning pops up. If that's the case, please visit the <a href="">troubleshoot guide.</a> <br/> This tutorial will continue with macOS but the same can be applied to other OSs.</p>
+    <br />
+    <p>Once opened, you should see Runway's default screen: </p>
+    <div class="Screenshot">
+      <img src="../../src/img/screenshots/01.png" alt="icon menu">
+      <p>Initial App View</p>
+    </div>
+    <p>The main window is compromised of 4 sub panels:</p>
+
+    <!-- Subpanels -->
+    <div class="Screenshot">
+      <img src="../../src/img/screenshots/allparts.png" alt="icon menu">
+      <p>Main View Panels</p>
+    </div>
+
+    <p>Each panel represents a different abstraction layers when using machine learning models.</p>
+    <ul>
+      <li><b>Models:</b> Models are pre-trained machine learning architectures that have been created to perform a very specific task, like recognize objects and people, understand speech or generate music. Generally, models are trained on large amounts of data and during a long period of time. In Runway, you will find models that have been already been trained and that you, for the most part, don't need to train or modify. Models serve as the basic building block of the app. </li>
+      <br>
+      <li><b>Inputs:</b> Inputs are all possible ways of giving making a model perform a task. Let's say you have a model that can recognize faces, then the inputs for that model can be images, videos or pixels.</li>
+      <br>
+      <li><b>Outputs:</b> Outputs are the result of what the model did over the inputs based on the model. If the model recognizes faces when given an image, then the output will be the position in the image where faces where detected. </li>
+    </ul>
+    <p>We can say that Runway works is the following way:</p>
+    <div class="Screenshot">
+      <img src="../../src/img/graph.png" alt="graph" class="Graph">
+    </div>
+    <!-- Where next? -->
+    <h2>3. What's next?</h2>
+
+    <p>Try one of the <a href="../../tutorials/">tutorials</a> or <a href="https://github.com/runwayml">help contribute to the project</a> !</p>
+   
+  </div>
+
+
+  <hr>
+  <!-- Footer -->
+  <div class="Footer">
+    <h6>hello@runwayml.com</h6>
+    <h6><a href="https://github.com/runwayml"><img src="../../src/img/logos/github.svg" alt="github"> </a></h6>
+  </div>
+
+</body>
+
+</html>
