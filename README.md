@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/img/favicon.png" width="100">
+  <img src="src/pages/tutorials/imgs/icon.png" width="100">
 </p>
 
 # Runway Website
