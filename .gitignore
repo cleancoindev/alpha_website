@@ -1,2 +1,7 @@
+# Project dependencies
 .cache
-dist/
+node_modules
+yarn-error.log
+
+# Build directory
+/public

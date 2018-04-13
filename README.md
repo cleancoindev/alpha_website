@@ -6,16 +6,16 @@
 
 ## Development
 
-The websites uses [Parcel.js](http://parceljs.org/) to compile.
+This websites is built with [Gatsby.js](https://www.gatsbyjs.org/).
 
 For development, run from the root of this repo:
 
 ```
-parcel index.html
+npm run develop
 ```
 
 To build:
 
 ```
-parcel build index.html --public-url ./
+npm run build
 ```

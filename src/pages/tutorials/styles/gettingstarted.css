@@ -1,0 +1,78 @@
+/**
+ *Copyright (C) 2018 Cristobal Valenzuela
+ *
+ *This file is part of RunwayML.
+ *
+ *RunwayML is free software: you can redistribute it and/or modify
+ *it under the terms of the GNU General Public License as published by
+ *the Free Software Foundation, either version 3 of the License, or
+ *(at your option) any later version.
+ *
+ *RunwayML is distributed in the hope that it will be useful,
+ *but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *GNU General Public License for more details.
+ *
+ *You should have received a copy of the GNU General Public License
+ *along with RunwayML.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.ImageMedium{
+  width: 30vw;
+}
+
+.ImageLarge{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.ImageLarge img{
+  width: 45vw;
+  margin-bottom: 0px;
+}
+
+.ImageLarge p{
+  font-size: 14px;
+}
+
+.GreenBtn{
+  background: rgb(42,184, 88);
+  color: white;
+  padding: 3px 5px;
+  border-radius: 3px;
+  margin: 2px;
+}
+
+.DropdownBtn{
+  background: rgb(25,25,25);
+  padding: 3px 8px;
+  color: white;
+  border: 1px solid rgb(252, 252, 252);
+  border-radius: 4px;
+  margin: 2px;
+}
+
+.GreyBtn{
+  background: rgb(192,192,192);
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin: 2px;
+}
+
+.CheckboxButton{
+  position: relative;
+}
+
+.CheckboxButton div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline;
+  position: absolute;
+  top: -20px;
+  left: 6px;
+  background: rgb(42,184, 88);
+  border: 1px solid rgb(224, 224, 224);
+}

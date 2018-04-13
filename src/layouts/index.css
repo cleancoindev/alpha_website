@@ -1,0 +1,238 @@
+/**
+ *Copyright (C) 2018 Cristobal Valenzuela
+ *
+ *This file is part of RunwayML.
+ *
+ *RunwayML is free software: you can redistribute it and/or modify
+ *it under the terms of the GNU General Public License as published by
+ *the Free Software Foundation, either version 3 of the License, or
+ *(at your option) any later version.
+ *
+ *RunwayML is distributed in the hope that it will be useful,
+ *but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *GNU General Public License for more details.
+ *
+ *You should have received a copy of the GNU General Public License
+ *along with RunwayML.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Overpass:200,300,400,700,800,900');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	font-style: none;
+}
+button:focus {outline:0;}
+
+/* CUSTOM */
+
+*{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+  font-family: 'Overpass', sans-serif;
+}
+
+h1{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+h2{
+  font-size: 3.4rem;
+  font-weight: 700;
+  letter-spacing: 0rem;
+  margin: 0rem 0px 0.8rem 0px;
+  padding: 0.5rem;
+}
+
+h2 span{
+  /* border-bottom: 6px solid #33e5c7; */
+}
+
+h3{
+  font-weight: 400;
+  font-size: 2rem;
+  max-width: 50%;
+  margin: 0 auto;
+  line-height: 2.8rem;
+}
+
+h4{
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin: 0.5rem 0px 0px 0px;
+}
+
+h5{
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0rem 0px 1rem 0px;
+}
+
+h6{
+  font-weight: 200;
+  font-size: 0.8rem;
+  display: inline;
+  margin: 0px 1rem 0px 2rem;
+}
+
+p{
+  font-weight: 200;
+}
+
+p b {
+  font-weight: bold;
+}
+
+code{
+  background: black;
+  padding: 4px;
+  color: rgb(219, 217, 217);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button{
+  margin: 1rem 0.5rem 0px 0px;
+  background: #ededed;
+  padding: 0.5rem 0.5rem;
+}
+
+iframe{
+  margin: 0rem 0px 7rem 0px;
+}
+
+hr{
+  background: rgb(233, 233, 233);
+  border: none;
+  height: 1px;
+}
+
+.Content {
+  margin: 4vw 8vw 10rem 8vw;
+  width: 70%;
+}
+
+.Content h1 {
+  letter-spacing: 0.1rem;
+  font-size: 2.5rem;
+  margin: 2rem 0px;
+}
+
+.Content h2 {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  margin: 4rem 0px 2rem 0px;
+  padding: 0px;
+}
+
+.Content h3{
+  font-size: 0.9rem;
+  margin: 1rem 2rem;
+}
+
+.Content h4{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.Content h5{
+  font-size: 0.9rem;
+  margin: 10px 0px 4rem 0px;
+  max-width: 40%;
+  line-height: 1rem;
+  font-style: italic;
+}
+
+.Content p{
+  margin: 0rem 2rem;
+  line-height: 1.6rem;
+}
+
+.Content a {
+  border-bottom: 1px solid #33e5c7; 
+}
+
+.Content img{
+  margin: 1rem 2rem;
+}
+
+.Content ul{
+  list-style-type: disc;
+  margin: 1.4rem 4rem;
+}
+
+.Content ul li{
+  font-weight: lighter;
+  line-height: 1.4rem;
+}
+
+.Content ul li img {
+  display: block;
+}
+
+.Content ul li b{
+  font-weight: bolder;
+}
+
+.IconTop{
+  width: 10vw;
+  margin: 0px !important;
+}

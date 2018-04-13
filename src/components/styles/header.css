@@ -1,0 +1,81 @@
+/**
+ *Copyright (C) 2018 Cristobal Valenzuela
+ *
+ *This file is part of RunwayML.
+ *
+ *RunwayML is free software: you can redistribute it and/or modify
+ *it under the terms of the GNU General Public License as published by
+ *the Free Software Foundation, either version 3 of the License, or
+ *(at your option) any later version.
+ *
+ *RunwayML is distributed in the hope that it will be useful,
+ *but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *GNU General Public License for more details.
+ *
+ *You should have received a copy of the GNU General Public License
+ *along with RunwayML.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.Header{
+  padding: 2.5rem;
+  background: #ededed;
+}
+
+.Logo{
+  display: inline-block;
+  margin: 0px 0px 0px 4vw;
+}
+
+.Logo img{
+  width: 3.8rem;
+}
+
+.Intro{
+  background: #ededed;
+}
+
+.Demo{
+  text-align: center;
+}
+
+.Demo img{
+  max-width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Menu{
+  display: inline-block;
+  float: right;
+}
+
+.Menu ul li{
+  display: inline;
+  font-weight: 3500;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin: 0px 1rem;
+  color: #3c3c3b;
+}
+
+.Menu ul li:hover{
+  color:black;
+  border-bottom: 2px solid #33e5c7;
+}
+
+@media only screen and (max-width: 600px) {
+  .Menu {
+      display: none
+  }
+  h2{
+    font-size: 1.7rem;
+    padding: 1rem;
+  }
+  .Specs img{
+    display: none;
+  }
+  .SpecsDescription{
+    width: 100%;
+  }
+}
