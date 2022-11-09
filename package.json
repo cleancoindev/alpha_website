@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "author": "Cristobal Valenzuela <cris@runwayml.com>",
   "dependencies": {
-    "gatsby": "^1.9.247",
+    "gatsby": "^5.0.0",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-google-analytics": "1.0.28",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-remark-prismjs": "1.2.24",
-    "gatsby-transformer-remark": "1.7.39",
+    "gatsby-transformer-remark": "6.0.0",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
